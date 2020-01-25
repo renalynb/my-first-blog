@@ -29,6 +29,8 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+	text-align: right;
+	font-style: italic;
 }
 
 .save {
@@ -52,4 +54,45 @@ h1, h2, h3, h4 {
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.post-date-right {
+    line-height: 6em;
+}
+
+.create-btn-right {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.custom-btn.create-post-btn {
+	padding: 15px 25px;
+}
+
+.create-post-btn:hover,
+.custom-btn:hover {
+	background: black;
+	border-color: black;
+	color: white;
+}
+
+.custom-btn {
+	background: transparent;
+    border: solid 2px black;
+    padding: 10px 25px;
+    color: black;
+    text-shadow: none;
+    border-radius: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.5s ease-out;
+}
+
+input, textarea {
+	    border: solid 2px black;
 }
